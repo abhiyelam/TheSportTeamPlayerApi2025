@@ -6,7 +6,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using TheSportTeamPlayerApi.DataBaseLogic;
-using TheSportTeamPlayerApi.Entity;
+//using TheSportTeamPlayerApi.Entity;
 
 namespace TheSportTeamPlayerApi.BLogic
 {
