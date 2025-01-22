@@ -6,14 +6,14 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using TheSportTeamPlayerApi.DataBaseLogic;
-//using TheSportTeamPlayerApi.Entity;
+using TheSportTeamPlayerApi.Entity;
 
 namespace TheSportTeamPlayerApi.BLogic
 {
     public class MatchesService
     {
-        //private static readonly HttpClient client = new HttpClient();
-        //string url = "https://api.thesports.com/v1/cricket/match/lineup/detail?user={0}&secret={1}&uuid={2}";
+        private static readonly HttpClient client = new HttpClient();
+        string url = "https://api.thesports.com/v1/cricket/match/lineup/detail?user={0}&secret={1}&uuid={2}";
 
         public bool sport_GetTeamPlayer(string username, string secretekey, string id)
         {
