@@ -28,10 +28,10 @@ namespace TheSportTeamPlayerApi.BLogic
 
 
 
-               // string responseBody = response.Content.ReadAsStringAsync().Result; 
-               // var json = JObject.Parse(responseBody);
-               // hometeamlist = json["results"]["lineup"]["home"].ToObject<List<TeamPlayer>>();
-               // awayteamlist = json["results"]["lineup"]["away"].ToObject<List<TeamPlayer>>();
+                string responseBody = response.Content.ReadAsStringAsync().Result; 
+                var json = JObject.Parse(responseBody);
+                hometeamlist = json["results"]["lineup"]["home"].ToObject<List<TeamPlayer>>();
+                awayteamlist = json["results"]["lineup"]["away"].ToObject<List<TeamPlayer>>();
 
 
                 if (hometeamlist != null)
