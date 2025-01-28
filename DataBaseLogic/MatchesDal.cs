@@ -14,7 +14,7 @@ namespace TheSportTeamPlayerApi.DataBaseLogic
 {
     public class MatchesDal
     {
-        private readonly SQLHelper _sqlHelper;
+        //private readonly SQLHelper _sqlHelper;
 
         public MatchesDal()
         {
