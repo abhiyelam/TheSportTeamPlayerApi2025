@@ -17,8 +17,8 @@ namespace TheSportTeamPlayerApi.BLogic
 
         public bool sport_GetTeamPlayer(string username, string secretekey, string id)
         {
-            List<TeamPlayer> hometeamlist = new List<TeamPlayer>();
-            List<TeamPlayer> awayteamlist = new List<TeamPlayer>();
+           // List<TeamPlayer> hometeamlist = new List<TeamPlayer>();
+           // List<TeamPlayer> awayteamlist = new List<TeamPlayer>();
 
             string readurl = string.Format(url, username, secretekey, id);
             try
