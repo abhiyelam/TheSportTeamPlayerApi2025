@@ -12,13 +12,13 @@ namespace TheSportTeamPlayerApi.BLogic
 {
     public class MatchesService
     {
-        private static readonly HttpClient client = new HttpClient();
+        //private static readonly HttpClient client = new HttpClient();
         string url = "https://api.thesports.com/v1/cricket/match/lineup/detail?user={0}&secret={1}&uuid={2}";
 
         public bool sport_GetTeamPlayer(string username, string secretekey, string id)
         {
-            List<TeamPlayer> hometeamlist = new List<TeamPlayer>();
-            List<TeamPlayer> awayteamlist = new List<TeamPlayer>();
+            //List<TeamPlayer> hometeamlist = new List<TeamPlayer>();
+            //List<TeamPlayer> awayteamlist = new List<TeamPlayer>();
 
             string readurl = string.Format(url, username, secretekey, id);
             try
